@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: #00008d;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    align-items: center;
+    
+  }
+  
+  nav {
+
+    padding: 8px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+  
+  nav a {
+    color: #00007d;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #000068;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -7px;
+    margin-bottom: -20px;
+  }
+  footer p {
+    color: white;
+  }
+  
+  .social-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-links img {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    filter: grayscale(100);
+  }
+  
+  .social-links img:hover{
+    filter:grayscale(0);
+    transition: 1s all ease;
+  }
+
+  #half-menu {
+display: flex;
+margin-left: 20px;
+  }
+   
+
+.menu{
+    background-color: black;
+    display: flex;
+}
+#halfmenu a{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+p{
+    color: black;
+}
+
+
+article img{
+    height: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+section{
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.smaller{
+    font-size: 20px;
+}
+h2{
+    font-weight: 800;
+}
+.divider{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 20px auto;
+    width: 80%;
+    padding: 0.2px;
+    
+}
+
+.odlisny{
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.blue{
+    margin-right: 75%;
+    color: blue;
+}
+.odlisny p{
+    color: white;
+    padding-bottom: 20px;
+}
+.more{
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    padding-left: 45%;
+}
+.info{
+    border: 1px solid #949494;
+}
+.big{
+    width: 300px;
+}
